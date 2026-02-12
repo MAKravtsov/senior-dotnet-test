@@ -1,0 +1,40 @@
+packages
+Nuget
+.vscode
+*.user
+*.rdb
+BenchmarkDotNet.*
+global.json
+.vs
+bin
+obj
+.user
+*.exe
+.idea
+.DS_Store
+node_modules
+.cache
+dist
+build
+**/node_modules
+.env
+**/.states
+**/.deps
+
+# Hardhat files
+**/cache
+**/artifacts
+
+# TypeChain files
+**/typechain
+**/typechain-types
+
+# solidity-coverage files
+**/coverage
+**/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+**/ignition/deployments/chain-31337
+
+# Private app settings
+appsettings.private.json
